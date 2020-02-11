@@ -7,13 +7,17 @@ import blogStyles from './blog.module.scss'
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
         query {
-            allMarkdownRemark {
+            allMarkdownRemark(
+                sort: {order: DESC, fields: [frontmatter___date] }
+                limit: 1000
+              ) {
                 edges {
                     node {
                         frontmatter {
                             title
-                            date
+                            date(formatString: "DD-MM-YYYY")
                         }
+                        excerpt
                         fields {
                             slug
                         }
@@ -33,6 +37,7 @@ const BlogPage = () => {
                             <Link to={`/blog/${edge.node.fields.slug}`}>
                                 <h2>{edge.node.frontmatter.title}</h2>
                                 <p>{edge.node.frontmatter.date}</p>
+                                <i>{edge.node.excerpt}</i>
                             </Link>
                         </li>
                     )

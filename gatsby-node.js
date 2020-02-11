@@ -25,6 +25,9 @@ module.exports.createPages = async ({ graphql, actions }) => {
                         fields {
                             slug
                         }
+                        frontmatter {
+                            tags
+                        }
                     }
                 }
             }
