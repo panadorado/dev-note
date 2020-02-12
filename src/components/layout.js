@@ -4,6 +4,7 @@ import Header from './header'
 import Footer from './footer'
 import Sidebar from './sidebar'
 import '../styles/index.scss'
+import '../styles/style.project.scss'
 import layoutStyles from './layout.module.scss'
 
 const Layout = (props) => {

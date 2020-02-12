@@ -1,3 +1,6 @@
+@import '../styles/style.project.scss';
+
+
 .header {
     padding: 1rem 0 3rem;
     // float: right;
@@ -6,7 +9,9 @@
 
 .title {
     color: #000000;
-    font-size: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'NoteDEV';
     text-decoration: none;
 }
 

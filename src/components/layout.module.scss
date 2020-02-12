@@ -1,3 +1,21 @@
+@media screen and (max-width: 576px) {
+    body {
+        background: rgb(255, 216, 216);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    body {
+        background: rgb(188, 188, 255);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background: rgb(255, 255, 195);
+    }
+}
+
 .container {
     display: block;
     max-width: 1200px;

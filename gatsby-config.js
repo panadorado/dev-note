@@ -1,10 +1,11 @@
 module.exports = {
     siteMetadata: {
-        title: 'Note-DEV',
+        title: 'NOTE-DEV',
         author: 'Trần Đức Lĩnh'
     },
     plugins: [
         'gatsby-plugin-sass',
+        'gatsby-plugin-react-helmet',
         {
             resolve: 'gatsby-source-filesystem',
             options: {
