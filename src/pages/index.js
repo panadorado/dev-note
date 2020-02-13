@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Helmets from '../components/helmets'
 import Layout from '../components/layout'
 

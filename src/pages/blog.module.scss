@@ -28,3 +28,19 @@
         font-style: italic;
     }
 }
+
+.main {
+    height: 100%;
+    width: 800px;
+    margin-right: 10px;
+    float: left;
+    background: red;
+}
+.sidebar {
+    width: calc(100% - 810px);
+    width: -moz-calc(100% -8130px);
+    width: -webkit-calc(100% -8130px);
+    height: 600px;
+    float: left;
+    background: blue;
+}

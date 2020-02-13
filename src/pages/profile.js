@@ -6,7 +6,7 @@ const profilePage = () => {
     return (
         <Layout>
             <Helmets title='Cá nhân' />
-            <h1>Contact</h1>
+            <h1>Cá nhân</h1>
             <p>
             Linhz
             </p>

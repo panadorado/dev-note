@@ -7,8 +7,9 @@ const AboutPage = () => {
     return (
         <Layout>
             <Helmets title='Thông tin' />
-            <h1>About Me</h1>
-            <p>I currently teach full-time on Udemy.</p>
+            <h1>Thông tin</h1>
+            <p>Quá trình đang chuyển đổi từ Jekyll -> GatsbyJS</p>
+            <a href='https://tranduclinh.cf/about/' target='_blank'>Chuyển tiếp</a>
         </Layout>
     )
 }

@@ -3,6 +3,7 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import Helmets from '../components/helmets'
 import Layout from '../components/layout'
 import blogStyles from './blog.module.scss'
+import Sidebar from '../components/sidebar'
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
@@ -31,21 +32,27 @@ const BlogPage = () => {
         <Layout>
             <Helmets title='Blog' />
             <h1>Blog</h1>
-            <ol className={blogStyles.posts}>
-                {data.allMarkdownRemark.edges.map((edge) => {
-                    return (
-                        <li className={blogStyles.post}>
-                            <Link to={`/blog/${(edge.node.fields.slug).split("---")[1]}`}>
-                                <h2>{edge.node.frontmatter.title}</h2>
-                                <p>{edge.node.frontmatter.date}</p>
-                                <i>{edge.node.excerpt}</i>
-                            </Link>
-                        </li>
-                    )
-                })}
-            </ol>
+            <div className={blogStyles.main}>
+                <ol className={blogStyles.posts}>
+                    {data.allMarkdownRemark.edges.map((edge) => {
+                        return (
+                            <li className={blogStyles.post}>
+                                <Link to={`/blog/${(edge.node.fields.slug).split("---")[1]}`}>
+                                    <h2>{edge.node.frontmatter.title}</h2>
+                                    <p>{edge.node.frontmatter.date}</p>
+                                    <i>{edge.node.excerpt}</i>
+                                </Link>
+                            </li>
+                        )
+                    })}
+                </ol>
+            </div>
+            <div className={blogStyles.sidebar}>
+                <Sidebar />
+            </div>
         </Layout>
     )
 }
+
 
 export default BlogPage
