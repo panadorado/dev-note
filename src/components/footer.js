@@ -1,24 +1,23 @@
-import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
-
-import footerStyles from './footer.module.scss'
+import React from 'react';
+import footerStyle from './footer.module.scss';
 
 const Footer = () => {
-    const data = useStaticQuery(graphql`
-        query {
-            site {
-                siteMetadata {
-                    author
-                }
-            }
-        }
-    `)
-
     return (
-        <footer className={footerStyles.footer}>
-            <p>Tạo bởi {data.site.siteMetadata.author} | GatsbyJS © 2020</p>
-        </footer>
+        <div>
+            <footer>
+                <div>
+                    <h4>
+                        Trần Đức Lĩnh
+                    </h4>
+                </div>
+                <div>
+                    <h4>
+                        Frontend
+                    </h4>
+                </div>
+            </footer>
+        </div>
     )
 }
 
-export default Footer
+export default Footer;

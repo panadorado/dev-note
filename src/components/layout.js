@@ -1,22 +1,53 @@
-import React from 'react'
-import Header from './header'
-import Footer from './footer'
-import '../styles/index.scss'
-import '../styles/style.project.scss'
-import layoutStyles from './layout.module.scss'
+import React from 'react';
+import '../style/resert.scss';
+import layoutStyles from './layout.module.scss';
 
-const Layout = (props) => {
-    return (
+import Menu from './menu';
+// import Footer from './footer';
+import Sidebar from './sidebar';
+
+import { StaticQuery, graphql } from 'gatsby';
+
+export default props => {
+  const { children } = props;
+
+  return (
+    <StaticQuery
+      query={graphql`
+      query {
+        site {
+          siteMetadata {
+            title
+          }
+        },
+        topics: allMarkdownRemark(sort: {order: DESC, fields: [frontmatter___date] }) {
+          edges {
+            node {
+              frontmatter {
+                categories
+                tags
+              }
+            }
+          }
+        }
+      }
+    `}
+
+      render={data => (
         <div className={layoutStyles.container}>
-            <Header />
-                <div>
-                    <div className={layoutStyles.content}>
-                        {props.children}
-                    </div>
-                </div>
-            <Footer />
+          <div className={layoutStyles.cMenu}>
+            <Menu title={data.site.siteMetadata.title} />
+          </div>
+          <div className={layoutStyles.dContext}>
+            <div className={layoutStyles.main}>
+              <div>{children}</div>
+            </div>
+            <div className={layoutStyles.sidebar}>
+              <Sidebar edges={data.topics.edges} />
+            </div>
+          </div>
         </div>
-    )
+      )}
+    />
+  )
 }
-
-export default Layout

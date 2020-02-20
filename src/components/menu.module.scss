@@ -1,0 +1,56 @@
+.header {
+    overflow: hidden;
+    padding: 10px 20px;
+    background: rgb(141, 210, 30);
+    // height: 50px;
+    
+}
+
+.d-title {
+    display: block;
+    float: left;
+    background: seagreen;
+
+    .title {
+        color: #1d1818;
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-family: 'NoteDEV';
+        text-decoration: none;
+        text-align: center;
+        line-height: 30px;
+        padding: 5px 10px;
+    }
+}
+
+.d-menu {
+    display: block;
+    background:  violet;
+    float: right;
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        // justify-content: flex-end;
+        // margin: 0 0 0 12px;
+        list-style-type: none;
+        margin: 0;
+        padding: 5px 0;
+        background: red;
+
+        .nav-item {
+            color: #535353;
+            font-size: .9rem;
+            margin-right: 1.3rem;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover {
+                color: #666666;
+            }
+        }
+    
+        .active-nav-item {
+            color: #111010;
+        }
+    }
+}
