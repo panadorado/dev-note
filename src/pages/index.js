@@ -1,19 +1,19 @@
 import React from "react";
 import Layout from "../components/layout";
-import { graphql, Link } from "gatsby";
-import './index.scss';
 import Img from 'gatsby-image';
+
+import { graphql, Link } from "gatsby";
+
+import './index.scss';
+
 export default ({ data }) => {
   return (
     <div>
 
       <Layout>
-        <h2>Trang chủ</h2>
-
         {data.allMarkdownRemark.edges.map(({ node }, index) =>
-
-          <div key={index} className="ndexs hh">
-            <div>
+          <div key={index}>
+            <div className='tainer'>
               <h3>
                 <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
               </h3>
@@ -66,7 +66,7 @@ export const query = graphql`
             tags
             image {
               childImageSharp {
-                fixed(width: 300, height: 200) {
+                fixed(width: 800, height: 410) {
                   ...GatsbyImageSharpFixed
                 }
               }

@@ -1,7 +1,6 @@
 import React from 'react';
 import '../style/resert.scss';
 import layoutStyles from './layout.module.scss';
-
 import Menu from './menu';
 // import Footer from './footer';
 import Sidebar from './sidebar';

@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 export default () => {
   return (
     <Layout>
-      <h1>Liên hệ</h1>
+      <h1>Cá Nhân</h1>
     </Layout>
   )
 }

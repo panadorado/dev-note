@@ -2,6 +2,12 @@ import React from 'react';
 import menuStyles from './menu.module.scss';
 import { Link } from 'gatsby';
 
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { faEnvelope, fas } from '@fortawesome/free-solid-svg-icons';
+
+
+
 export default (props) => {
   const { title } = props;
 
@@ -15,21 +21,21 @@ export default (props) => {
       </div>
       <nav className={menuStyles.dMenu}>
         <ul className={menuStyles.navList}>
-          <li>
-            <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/">
+          <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/">
+            <li>
               Trang chủ
-            </Link>
-          </li>
-          <li>
-            <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/ca-nhan">
+            </li>
+          </Link>
+          <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/ca-nhan">
+            <li>
               Cá nhân
-            </Link>
-          </li>
-          <li>
-            <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/gioi-thieu">
+            </li>
+          </Link>
+          <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/gioi-thieu">
+            <li>
               Giới thiệu
-            </Link>
-          </li>
+            </li>
+          </Link>
         </ul>
       </nav>
     </header>
