@@ -1,7 +1,7 @@
 import React from "react";
-import "./sidebar.module.scss";
 import slug from "slug";
 import { Link } from "gatsby";
+import sidebarStyle from "./sidebar.module.scss";
 
 export default (props) => {
   const { edges } = props;
@@ -14,7 +14,7 @@ export default (props) => {
   });
 
   return (
-    <aside>
+    <div>
       <div>
         <h3>Chuyên mục bài viết</h3>
         {
@@ -36,6 +36,6 @@ export default (props) => {
           ))
         }
       </div>
-    </aside>
+    </div>
   )
 }

@@ -12,37 +12,49 @@ export default ({ data }) => {
 
       <Layout>
         {data.allMarkdownRemark.edges.map(({ node }, index) =>
-          <div key={index}>
-            <div className='tainer'>
-              <h3>
-                <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-              </h3>
+          <div className='container' key={index}>
+            <div className='d-img'>
+              <Link to={node.fields.slug}>
+                <Img className='img-link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
+              </Link>
             </div>
-            <div>
-              <p>
-                {node.frontmatter.tags.map((tag, keytag) => 
-                  <span key={keytag}>
-                    <Link to={`/tag/${(tag)}`}> #{tag}</Link>
-                  </span>
-                )}
-              </p>
-            </div>
-            <div>
-            <Img fixed={node.frontmatter.image.childImageSharp.fixed}/>
-            </div>
-            <div>
-              <p>{node.excerpt}</p>
-            </div>
-            <div>
+
+            <div className='content'>
               <div>
-                <p>
-                  {node.frontmatter.author}
+                <h2>
+                  <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+                </h2>
+              </div>
+
+              <div>
+                <p className='content--tag'>
+                  {node.frontmatter.tags.map((tag, keytag) => 
+                    <span key={keytag}>
+                      <Link to={`/tag/${(tag)}`}> #{tag}</Link>
+                    </span>
+                  )}
                 </p>
               </div>
-              <div>
-                <span>{node.frontmatter.date}</span>
+
+              <div className='content--text'>
+                <p>{node.excerpt}</p>
+              </div>
+
+              <div className='content-footer'>
+                <div className='footer-left'>
+                  <p>
+                    {node.frontmatter.author}
+                  </p>
+                </div>
+
+                <div className='footer-right'>
+                  <p>
+                    {node.frontmatter.date}
+                  </p>
+                </div>
               </div>
             </div>
+            
           </div>
         )}
         
@@ -66,7 +78,7 @@ export const query = graphql`
             tags
             image {
               childImageSharp {
-                fixed(width: 800, height: 410) {
+                fixed(width: 410, height: 215, , quality: 95) {
                   ...GatsbyImageSharpFixed
                 }
               }
