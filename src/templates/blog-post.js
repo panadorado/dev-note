@@ -1,11 +1,13 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
+import Title from '../components/helmet.title';
 
 export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <Layout>
+    <Title title={post.frontmatter.title} />
       <div>
         <h1>{post.frontmatter.title}</h1>
         {post.frontmatter.tags.map((tag, keytag) => 

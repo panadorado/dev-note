@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import { graphql, Link } from "gatsby";
 import Img from 'gatsby-image';
+import Title from '../components/helmet.title';
 
 export default ({ data, pageContext }) => {
   const { category } = pageContext;
@@ -9,10 +10,11 @@ export default ({ data, pageContext }) => {
 
   return (
     <Layout>
+      <Title title={category} />
       <h1>Chuyên mục {category}</h1>
 
       {categoryEdges.map(({ node }, index) => 
-        <div key={index}>
+        <div className='container' key={index}>
           <h3>
             <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
           </h3>

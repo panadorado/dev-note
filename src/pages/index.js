@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Img from 'gatsby-image';
 
 import { graphql, Link } from "gatsby";
-
+import Title from '../components/helmet.title';
 import './index.scss';
 
 export default ({ data }) => {
@@ -11,6 +11,7 @@ export default ({ data }) => {
     <div>
 
       <Layout>
+        <Title title='Trang chủ' />
         {data.allMarkdownRemark.edges.map(({ node }, index) =>
           <div className='container' key={index}>
             <div className='d-img'>
