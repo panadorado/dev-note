@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import { graphql, Link } from "gatsby";
 import Img from 'gatsby-image';
 import Title from '../components/helmet.title';
+import './categories.scss';
 
 export default ({ data, pageContext }) => {
   const { category } = pageContext;
@@ -11,22 +12,49 @@ export default ({ data, pageContext }) => {
   return (
     <Layout>
       <Title title={category} />
-      <h1>Chuyên mục {category}</h1>
-
-      {categoryEdges.map(({ node }, index) => 
-        <div className='container' key={index}>
-          <h3>
-            <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-          </h3>
-          <div>
-          <Img fixed={node.frontmatter.image.childImageSharp.fixed}/>
-          </div>
-          <p>
-            <span>{node.frontmatter.date}</span>
-          </p>
-          <p>{node.excerpt}</p>
+      <div className='container--category'>
+        
+        <div className='catrgory--title'>
+          <h1>Chuyên mục "<span className='category__title'>{category}</span>"</h1>
         </div>
-      )}
+
+        {categoryEdges.map(({ node }, index) => 
+          <div className='container' key={index}>
+            <div className='d--img'>
+              <Link to={node.fields.slug}>
+                <Img className='img--link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
+              </Link>
+            </div>
+            <div className='content'>
+              <h2>
+                <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+              </h2>
+            </div>
+            <div className='content--text'>
+              <p>{node.excerpt}</p>
+            </div>
+              
+            <div>
+              <div>
+                <p>
+                  <span>
+                    {node.frontmatter.author}
+                  </span>
+                  <span>
+                    {node.frontmatter.date} 
+                  </span>
+                </p>
+              </div>
+            </div>
+            
+            {/* <p>
+              <span>{node.frontmatter.date}</span> 
+              | 
+              <span>{node.frontmatter.author}</span>
+            </p> */}
+          </div>
+        )}
+      </div>
     </Layout>
   )
 }
@@ -43,9 +71,10 @@ export const query = graphql`
             title
             date(formatString: "DD-MM-YYYY")
             categories
+            author
             image {
               childImageSharp {
-                fixed(width: 350, height: 200) {
+                fixed(width: 410, height: 215, quality: 95) {
                   ...GatsbyImageSharpFixed
                 }
               }

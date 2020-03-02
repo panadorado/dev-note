@@ -27,7 +27,7 @@ $color-text: #3c4858;
     }
 } 
 
-.d-img {
+.d--img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ $color-text: #3c4858;
     bottom: 70px;
 }
 
-.img-link {
+.img--link {
     border: .5px solid rgb(70, 70, 70);
     border-radius: 10px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -50,7 +50,7 @@ $color-text: #3c4858;
 
 .content {
     position: relative;
-    bottom: 42px;
+    bottom: 55px;
 
     a {
         color: $color-arrow;
@@ -80,7 +80,7 @@ $color-text: #3c4858;
     }
 }
 
-.footer-left, .footer-right {
+.footer--left, .footer--right {
     width: 50%;
     height: auto;
     background: red;

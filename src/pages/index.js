@@ -14,9 +14,9 @@ export default ({ data }) => {
         <Title title='Trang chủ' />
         {data.allMarkdownRemark.edges.map(({ node }, index) =>
           <div className='container' key={index}>
-            <div className='d-img'>
+            <div className='d--img'>
               <Link to={node.fields.slug}>
-                <Img className='img-link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
+                <Img className='img--link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
               </Link>
             </div>
 
@@ -41,14 +41,14 @@ export default ({ data }) => {
                 <p>{node.excerpt}</p>
               </div>
 
-              <div className='content-footer'>
-                <div className='footer-left'>
+              <div className='content--footer'>
+                <div className='footer--left'>
                   <p>
                     {node.frontmatter.author}
                   </p>
                 </div>
 
-                <div className='footer-right'>
+                <div className='footer--right'>
                   <p>
                     {node.frontmatter.date}
                   </p>
@@ -79,7 +79,7 @@ export const query = graphql`
             tags
             image {
               childImageSharp {
-                fixed(width: 410, height: 215, , quality: 95) {
+                fixed(width: 410, height: 215, quality: 95) {
                   ...GatsbyImageSharpFixed
                 }
               }
