@@ -14,24 +14,27 @@ export default (props) => {
   });
 
   return (
-    <div>
-      <div>
-        <h3>Chuyên mục bài viết</h3>
+    <div className={sidebarStyle.container__sidebar}>
+      <div className={sidebarStyle.sidebar__categories}>
+        <h3>Chuyên mục bài viết.</h3>
         {
           categories.map((category, index) => (
-            <p key={index}>
-              <Link to={`/category/${slug(category).toLowerCase()}/`}>{category}</Link>
-            </p>
+            <Link to={`/category/${slug(category).toLowerCase()}/`}>
+              <p key={index}>
+                {category}
+              </p>
+            </Link>
           ))
         }
       </div>
 
-      <div>
-        <h3>Thẻ</h3>
+      <div className={sidebarStyle.sidebar__tags}>
+        <h3>Thẻ.</h3>
         {
           tags.map((tag, index) => (
             <span key={index}>
-              <Link to={`/tag/${slug(tag).toLowerCase()}/`}>#{tag}</Link>{" "}
+              <Link to={`/tag/${slug(tag).toLowerCase()}/`}>#{tag}</Link>
+                {" "}
             </span>
           ))
         }

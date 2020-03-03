@@ -13,45 +13,44 @@ export default ({ data, pageContext }) => {
     <Layout>
       <Title title={category} />
       <div className='container--category'>
-        
-        <div className='catrgory--title'>
-          <h1>Chuyên mục "<span className='category__title'>{category}</span>"</h1>
+
+        <div className='category__title'>
+          <h1>Chuyên mục "<span className='category--blue'>{category}</span>"</h1>
         </div>
 
         {categoryEdges.map(({ node }, index) => 
           <div className='container' key={index}>
-            <div className='d--img'>
+          <div className='d__img'>
               <Link to={node.fields.slug}>
-                <Img className='img--link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
+                <Img className='img__link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
               </Link>
             </div>
+
             <div className='content'>
-              <h2>
-                <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-              </h2>
-            </div>
-            <div className='content--text'>
-              <p>{node.excerpt}</p>
-            </div>
-              
-            <div>
               <div>
-                <p>
-                  <span>
-                    {node.frontmatter.author}
-                  </span>
-                  <span>
-                    {node.frontmatter.date} 
-                  </span>
-                </p>
+                <h2>
+                  <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+                </h2>
+              </div>
+
+             
+
+              <div className='content__text'>
+                <p>{node.excerpt}</p>
+              </div>
+              <div className='content__footer'>
+                <div>
+                  <p>
+                    <span>
+                      {node.frontmatter.author}
+                    </span>
+                    <span>
+                      {node.frontmatter.date} 
+                    </span>
+                  </p>
+                </div>
               </div>
             </div>
-            
-            {/* <p>
-              <span>{node.frontmatter.date}</span> 
-              | 
-              <span>{node.frontmatter.author}</span>
-            </p> */}
           </div>
         )}
       </div>
