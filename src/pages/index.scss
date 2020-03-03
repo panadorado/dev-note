@@ -3,6 +3,8 @@
     margin: $top $leftRinght $bot;
 }
 
+
+
 @mixin text-center() {
     text-align: center;
 }
@@ -18,8 +20,10 @@ $color-text: #3c4858;
     max-width: 610px;
     height: auto;
     display: block;
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
 
     a {
         text-decoration: none;
@@ -27,16 +31,16 @@ $color-text: #3c4858;
     }
 } 
 
-.d-img {
+.d__img {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
 }
 
-.img-link {
-    border: .5px solid rgb(70, 70, 70);
+.img__link {
+    border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 10px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
@@ -50,23 +54,26 @@ $color-text: #3c4858;
 
 .content {
     position: relative;
-    bottom: 42px;
+    bottom: 26px;
 
     a {
         color: $color-arrow;
     }
-    h2, &--tag {
+    h2, &__tag {
         text-align: center;
         line-height: 1.2;
     }
-    &--text {
+    &__text {
         padding: 10px 14px 10px;
+        line-height: initial;
+        color: #3c4858;
     }
-    &--tag {
+    &__tag {
         display: block;
         margin-top: 6px;
-
+        
         span {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
             border: 1px solid #030303;
             border-radius: 4px;
             background: rgb(226, 224, 224);
@@ -75,22 +82,18 @@ $color-text: #3c4858;
 
         }
     }
-    &--footer {
-        display: block;
-    }
-}
+    
+    &__footer {
+        margin-top: 10px;
+        box-sizing: content-box;
+        p {
+            text-align: center;
+            font-weight: 550;
+            color: rgb(62, 63, 68);
+            span {
+                padding: 10px 5px 0;
+            }
+        }
+    } 
 
-.footer-left, .footer-right {
-    width: 50%;
-    height: auto;
-    background: red;
-    border-top: 1px solid rgb(129, 124, 124);
-    float: left;
-    text-align: center;
-    padding: 10px 0 4px;
-
-    p {
-        background: sandybrown;
-        display: inline;
-    }
 }

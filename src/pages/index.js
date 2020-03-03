@@ -14,9 +14,9 @@ export default ({ data }) => {
         <Title title='Trang chủ' />
         {data.allMarkdownRemark.edges.map(({ node }, index) =>
           <div className='container' key={index}>
-            <div className='d-img'>
+            <div className='d__img'>
               <Link to={node.fields.slug}>
-                <Img className='img-link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
+                <Img className='img__link' objectFit="cover" objectPosition="50% 50%" fixed={node.frontmatter.image.childImageSharp.fixed}/>
               </Link>
             </div>
 
@@ -28,7 +28,7 @@ export default ({ data }) => {
               </div>
 
               <div>
-                <p className='content--tag'>
+                <p className='content__tag'>
                   {node.frontmatter.tags.map((tag, keytag) => 
                     <span key={keytag}>
                       <Link to={`/tag/${(tag)}`}> #{tag}</Link>
@@ -37,25 +37,23 @@ export default ({ data }) => {
                 </p>
               </div>
 
-              <div className='content--text'>
+              <div className='content__text'>
                 <p>{node.excerpt}</p>
               </div>
-
-              <div className='content-footer'>
-                <div className='footer-left'>
+              <div className='content__footer'>
+                <div>
                   <p>
-                    {node.frontmatter.author}
-                  </p>
-                </div>
-
-                <div className='footer-right'>
-                  <p>
-                    {node.frontmatter.date}
+                    <span>
+                      {node.frontmatter.author}
+                    </span>
+                    |
+                    <span>
+                      {node.frontmatter.date} 
+                    </span>
                   </p>
                 </div>
               </div>
             </div>
-            
           </div>
         )}
         
@@ -79,7 +77,7 @@ export const query = graphql`
             tags
             image {
               childImageSharp {
-                fixed(width: 410, height: 215, , quality: 95) {
+                fixed(width: 410, height: 215, quality: 95) {
                   ...GatsbyImageSharpFixed
                 }
               }

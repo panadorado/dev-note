@@ -41,7 +41,7 @@ body {
 
 @media screen and (min-width: 992px) {
     body {
-        background: rgb(255, 255, 195);
+        background: #f8f9fa;
     }
 }
 
@@ -66,7 +66,11 @@ body {
         width: 800px;
         margin: 0 10px 20px 0;
         float: left;
-        background: rgb(243, 184, 184);
+        background: #ebf0f5;
+        padding-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
     }
     
     .sidebar {
@@ -75,7 +79,10 @@ body {
         width: -webkit-calc(100% -810px);
         height: 100%;
         float: left;
-        background: rgb(177, 177, 255);
+        background: rgb(241, 241, 241);
+        border-radius: 10px;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+
     }
 }
 
