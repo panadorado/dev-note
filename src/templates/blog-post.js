@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Title from '../components/helmet.title';
 import './blog-post.scss';
+import '../style/_pygments-themes.scss';
 
 export default ({ data }) => {
   const post = data.markdownRemark;

@@ -4,6 +4,7 @@ import layoutStyles from './layout.module.scss';
 import Menu from './menu';
 // import Footer from './footer';
 import Sidebar from './sidebar';
+import '../../node_modules/font-awesome/css/font-awesome.min.css';
 
 import { StaticQuery, graphql } from 'gatsby';
 

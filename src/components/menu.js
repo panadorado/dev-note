@@ -22,17 +22,19 @@ export default (props) => {
       <nav className={menuStyles.dMenu}>
         <ul className={menuStyles.navList}>
           <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/">
-            <li>
+            <li className=''>
               Trang chủ
             </li>
           </Link>
           <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/ca-nhan">
-            <li>
+            <li className=''>
+              <span className='fa fa-address-card'></span>
               Cá nhân
             </li>
           </Link>
           <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/gioi-thieu">
-            <li>
+            <li className=''>
+              <span className='fa fa-info-circle'></span>
               Giới thiệu
             </li>
           </Link>
