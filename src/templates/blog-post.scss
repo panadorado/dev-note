@@ -7,7 +7,7 @@
 }
 .block--title    {
     text-align: center;
-    border: 1px #000 solid;
+    border-bottom: 1px rgb(160, 160, 160) solid;
     border-radius: 4px;
     padding: 10px;
     line-height: 1.5;
@@ -18,11 +18,17 @@
     }
 
     span {
-        border: 1px solid #ccc;
+        // border: 1px solid #ccc;
         padding: 4px;
         color: rgb(44, 159, 226);
+
+        svg {
+            color: rgb(17, 74, 134);
+            padding-right: 4px;
+        }
     }
 }
 .content--main {
     margin-top: 30px;
+    line-height: 1.5;
 }

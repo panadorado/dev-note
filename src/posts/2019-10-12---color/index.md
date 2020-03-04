@@ -9,14 +9,14 @@ author: "Trần Đức Lĩnh"
 
 Khái niệm về màu sắc và cách phối hợp các màu như thế nào cho đúng sẽ giúp chúng ta có được chủ thể hài hoà hơn trong thiết kế.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/khai-niem-mau-sac.jpg){:width="100%"} -->
+![image-title-here](./img/color-basic/khai-niem-mau-sac.jpg)
 
 
 À ừ, trước khi đi vào vấn đề, hãy ngẫm chút ít kiến thức môn vật lý nhé.<br/>
 
 - Theo quang học: Khi có luồng ánh sáng trắng đi qua lăng kính sẽ tách ra các màu đơn sắc bao gồm *(đỏ, cam, vàng, lục, lam, chàm, tím)*.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/color.jpg){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/color.jpg)
 
 - Những câu hỏi thường gặp.
     - **Ánh sáng trắng có màu gì? :** Cái này tuỳ thuộc vào màu sắc của vật được chiếu sáng.
@@ -26,7 +26,7 @@ Khái niệm về màu sắc và cách phối hợp các màu như thế nào ch
 
 - Màu đen (`black`) và màu trắng (`white`) là màu vô sắc, 2 màu này chỉ làm cho màu sắc đậm nhạt chứ không tác động tới chính chất của màu, vì thế nên không có hoà sắc.
 
-<hr/>{:width="80%"}
+<hr/>
 
 #### Có 3 yếu tố cơ bản của màu sắc.
 
@@ -34,7 +34,7 @@ Khái niệm về màu sắc và cách phối hợp các màu như thế nào ch
 - **Quang độ:** thể hiện sáng tối của màu sắc.
 - **Cường độ:** là mức độ tinh khuyết của màu sắc. Ta có thể điều chỉnh cường độ màu sắc bằng cách `pha thêm màu xám` hoặc `pha các màu cơ bản để tạo thành màu mới`.
 
-<hr/>{:width="80%"}
+<hr/>
 
 ### Màu sắc được chia làm 8 loại.
 
@@ -49,7 +49,7 @@ Khái niệm về màu sắc và cách phối hợp các màu như thế nào ch
 
 Những màu sắc này sẽ được nói rõ hơn ở các phần tiếp theo.
 
-<hr/>{:width="80%"}
+<hr/>
 
 ### Tìm hiểu vòng thuần sắc
 
@@ -60,11 +60,11 @@ Hiểu đơn giản thì vòng thuần sắc là một còng tròn thể hiện 
 - **Màu bậc hai (Secondary):** Những màu bổ túc bao gồm: `cam`, `xanh lục`, `tím`. Nhóm màu bậc hai này được pha từ 2 cặp màu bậc nhất với phần lượng như nhau.
 - **Màu bậc ba (Tertiary):** Được pha trộn từ các màu bậc hai đứng cạnh nhau trên vòng thuần sắc, với phần lượng nhau nhau sẽ tạo ra màu bậc ba,  có tổng cộng 6 màu bậc ba bao gồm: `vàng-lục`, `lam-lục`, `lam-tím`, `đỏ-tím`, `đỏ-cam`, `cam-vàng`. Từ đó ta sẽ thu về được 12 màu cơ bản nhất.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/Color_.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/Color_.png)
 
 <p class="text-center"><small>Các màu bậc cao hơn sẽ dựa vào nguyên tắc này để tạo những màu mới.</small></p>
 
-<hr/>{:width="80%"}
+<hr/>
 
 ### Tìm hiểu các hệ màu trong thiết kế
 
@@ -72,31 +72,30 @@ Hiểu đơn giản thì vòng thuần sắc là một còng tròn thể hiện 
 
 **RGB** - viết tắt (**R**ed, **G**reen, **B**lue), được biết đến 3 màu gốc trong mô hình màu ánh sáng bổ sung, là một hệ thống màu cộng. Nếu kết hợp 3 màu này với nhau sẽ ra màu trắng (**#FFFFFF**).
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/RGB.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/RGB.png)
 
 (Mã hex bao gồm: đỏ-**#FF0000**, lục-**#00FF00**, lam-**#0000FF**).
 
-<hr/>{:width="80%"}
+<hr/>
 
 <h1 class="text-center">RGBA</h1>
 
 **RGB** - viết tắt (**R**ed, **G**reen, **B**lue, **A**lpha), phần mở rộng của giá trị màu (**RGB** với phần bổ sung là `opacity` được quy định độ trong suốt của màu sắc. *Alpha* có giá trị từ 0.0 - 1.0)
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/RGBA.jpg){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/RGBA.jpg)
 
-<hr/>{:width="80%"}
-
+<hr/>
 <h1 class="text-center">CMYK (in ấn)</h1>
 
 **CMYK** - viết tắt (**C**yan, **M**egenta, **Y**ellow, **K**ey<sub>-Black</sub>), một hệ thống màu trừ, ngược với **RGB**. Hệ thống làm việc trên hệ màu này dựa trên cơ sở hấp thụ ánh sáng. Nếu kết hợp 3 màu này với nhau sẽ ra màu đen (**#000000**).
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/CMYK.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/CMYK.png)
 
 (Mã hex bao gồm: xanh lơ-**#00FFFF**, hồng sẫm-**#FF00FF**, vàng-**#FFFF00**).
 
 *Màu đen (#000000) là màu không phản chiếu ánh sáng, trong khoa học, màu đen không phải là màu sắc*
 
-<hr/>{:width="80%"}
+<hr/>
 
 <h1 class="text-center">LAB</h1>
 
@@ -105,11 +104,11 @@ Hiểu đơn giản thì vòng thuần sắc là một còng tròn thể hiện 
 * (**a**): chứa giá trị màu *GREEN* **-** (**#00FF00**) đến *RED* **+** (**#FF0000**).
 * (**b**): chứa giá trị màu *BLUE* **-** (**#0000FF**) đến *YELLOW* **+** (**#FFFF00**).
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/LAB.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/LAB.png)
 
 Các thông tin màu được tách ra được dùng trong các *filter* của Photoshop, không làm ảnh hưởng đến màu sắc trong bức ảnh.
 
-<hr/>{:width="80%"}
+<hr/>
 
 <h1 class="text-center">HSB</h1>
 
@@ -118,62 +117,52 @@ Các thông tin màu được tách ra được dùng trong các *filter* của 
 * (**S**aturation): Liên quan đến sắc độ, có giá trị từ 0% đến 100%.
 * (**B**right/**V**alue): Độ sáng - tối, có giá trị từ 0% đến 100%
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/HSB.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/HSB.png)
 
-<hr/>{:width="80%"}
+<hr/>
 
 <h1 class="text-center">HEX</h1>
 
 **HEX** - viết tắt (**HEX**adecimal), hệ thống màu biểu diễn giá trị màu sắc **RGB** dưới dạng thập lục phân, một chuỗi bao gồm 6 chữ hoặc số dạng ghép của 3 số dạng một *byte*. Mỗi *byte* đại diện cho một số trong khoảng *00* - *FF* tức *0* - *255* trong hệ thập phân.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/HEX.jpg){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/HEX.jpg)
 
-<hr/>{:width="80%"}
+<hr/>
 
 <h1 class="text-center">PMS</h1>
 
 **PMS** - viết tắt (**P**antone **M**atching **S**ystem), một hệ thống tái tạo màu tiêu chuẩn và chính thức trong thiết kế, sản xuất, phân phối cho người tiêu dùng.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/PMS.jpg){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/PMS.jpg)
 
-<hr/>{:width="100%"}
-<hr/>{:width="90%"}
-<hr/>{:width="80%"}
-<hr/>{:width="70%"}
-<hr/>{:width="60%"}
-<hr/>{:width="50%"}
-<hr/>{:width="40%"}
-<hr/>{:width="30%"}
-<hr/>{:width="20%"}
-<hr/>{:width="10%"}
 
 <h1 class="text-center" style="text-decoration:underline">Các gam màu cơ bản.</h1>
 
-<hr/>{:width="40%"}
+<hr/>
 
 <kbd>Gam màu nóng:</kbd> mang lại sự lôi cuốn và gây chú ý, có tính chất phản chiếu cao. Tác động lớn đến không gian bố cục chung. Màu nóng gồm 2 màu chính gồm `đỏ` và `vàng` cùng với các màu lân cận gồm *(cam, hồng, tím-đỏ, vàng-xanh-lục...)*.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/hotColor.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/hotColor.png)
 
-<hr/>{:width="40%"}
+<hr/>
 
 <kbd>Gam màu lạnh:</kbd> cho cảm giác mát mẻ, đối lập hoàn toàn với gam màu nóng. Bao gồm các màu *(Xanh-lam, xanh-lục, đen, tím,...)*
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/coolColor.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/coolColor.png)
 
-<hr/>{:width="40%"}
+<hr/>
 
 <kbd>Gam màu tương phản:</kbd> là sự đối lập của `màu nóng` và `màu lạnh`. Tương phản với các hệ thống màu gốc. Giúp những bức hình đạt được sự rực rỡ.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/ContrastingColor.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/ContrastingColor.png)
 
-<hr/>{:width="40%"}
+<hr/>
 
 <kbd>Gam màu tương đồng:</kbd> là những nhóm màu đứng cạnh nhau trong vòng màu sắc, bao gồm các màu nối tiếp nhau và tương đồng về màu sắc. Liên kết chặt chẽ, không phân biệt *gam màu nóng hoặc lạnh*.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/AnalogousColor.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/AnalogousColor.png)
 
-<hr/>{:width="40%"}
+<hr/>
 
 <kbd>Gam màu bổ túc:</kbd> là những cặp màu có tính tương phản mạnh.
 
@@ -181,48 +170,37 @@ Các thông tin màu được tách ra được dùng trong các *filter* của 
 
 -- *Bổ túc trực tiếp*, đối diện nhau trong vòng tròn màu sắc,bổ sung trực tiếp cho nhau, độ tương phản cao của các dải màu tạo sự sống động, *(tránh dùng trong văn bản)*
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/Complementary.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/Complementary.png)
 
 -- *Cận bổ túc*, khác với bổ túc trực tiếp. Hai màu nằm kế bên màu bổ túc trực tiếp sẽ bổ túc xen kẽ cho màu tương phản đó. Cặp màu tương đồng sẽ làm nền cho màu tương phản và đống vai trò là điểm nhấn.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/SplitComplementary.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/SplitComplementary.png)
 
 -- *Bổ túc bộ ba*, bao gồm 3 màu nằm cách đều nhau tròng vòng tròn màu sắc, tạo nên tam giác đều. Nhược điểm gồm không thể hiện sự nổi trội rõ ràng của từng màu nào và có xu hướng kết hợp rực rỡ với nhau cho dù có bão hoà hay không.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/TriadicComplementary.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/TriadicComplementary.png)
 
 -- *Bổ túc đôi*, là sự kết hợp trực tiếp giữa 2 cặp bổ túc với nhau. Sự kết hợp rực rỡ nhất do có tới 4 màu sắc khác nhau, chú ý nên chọn 1 màu làm chủ đạo. Bổ túc đôi có nhiều biến thể với khoảng cách 2 màu đứng cạnh nhau lớn, khoảng cách giữa 2 màu càng lớn thì mức độ tương phản các màu càng cao.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/DoubleComplementaryColors.png){:width="30%"}{:.d-block.mx-auto} -->
-<!-- ![image-title-here](/assets/img/img-post/color-basic/DoubleComplementaryColors_2.png){:width="30%"}{:.d-block.mx-auto} -->
-<!-- ![image-title-here](/assets/img/img-post/color-basic/DoubleComplementaryColors_3.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/DoubleComplementaryColors.png)
+![image-title-here](./img/color-basic/DoubleComplementaryColors_2.png)
+![image-title-here](./img/color-basic/DoubleComplementaryColors_3.png)
 
-<hr/>{:width="40%"}
+<hr/>
 
 <kbd>Gam màu sắc độ:</kbd> thể hiện độ đậm nhạt của một màu nào đó, sự thay đổi phụ thuộc vào thêm màu `đen` hoặc `trắng` vào màu gốc để tạo nên các dải màu.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/MonoChroma.png){:width="30%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/MonoChroma.png)
 
-<hr/>{:width="40%"}
+<hr/>
 
 <kbd>Gam màu vô sắc:</kbd> là những màu không thể bão hoà. Khi trộn chung với nhau sẽ không tạo nên màu mới.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/Neutral_2.png){:width="40%"}{:.d-block.mx-auto} -->
+![image-title-here](./img/color-basic/Neutral_2.png)
 
 - Gam màu này thường chứa nhiều yếu tố xám.
 
-<!-- ![image-title-here](/assets/img/img-post/color-basic/Neutral.png){:width="40%"}{:.d-block.mx-auto} -->
-
-<hr/>{:width="100%"}
-<hr/>{:width="90%"}
-<hr/>{:width="80%"}
-<hr/>{:width="70%"}
-<hr/>{:width="60%"}
-<hr/>{:width="50%"}
-<hr/>{:width="40%"}
-<hr/>{:width="30%"}
-<hr/>{:width="20%"}
-<hr/>{:width="10%"}
+![image-title-here](./img/color-basic/Neutral.png)
 
 <!-- <h2 class="text-center" style="text-decoration:underline">Những nguyên tắc phối màu cơ bản</h2>
 
@@ -237,4 +215,4 @@ Các thông tin màu được tách ra được dùng trong các *filter* của 
 - **Phối màu bậc hai (Secondary):** Dùng 2 màu chính cấp bậc 1 phối màu tạo thành cấp bậc 2.
 - **Phối màu bậc ba (Tertiary):** Dùng 1 màu chính cấp bậc hai phối với 1 màu cấp độ 1 tạo thành cấp bậc 3. -->
 
-<small>Chỉnh sửa nếu có...</small>
+<small><i>Chỉnh sửa nếu có...</i></small>

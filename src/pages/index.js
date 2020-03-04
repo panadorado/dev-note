@@ -6,6 +6,9 @@ import { graphql, Link } from "gatsby";
 import Title from '../components/helmet.title';
 import './index.scss';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock, faUserAlt, faTags } from '@fortawesome/free-solid-svg-icons';
+
 export default ({ data }) => {
   return (
     <div>
@@ -31,11 +34,13 @@ export default ({ data }) => {
                 <p className='content__tag'>
                   {node.frontmatter.tags.map((tag, keytag) => 
                     <span key={keytag}>
+                      <FontAwesomeIcon icon={faTags} size={"1px"} color="#114a86" />
                       <Link to={`/tag/${(tag)}`}> #{tag}</Link>
                     </span>
                   )}
                 </p>
               </div>
+              
 
               <div className='content__text'>
                 <p>{node.excerpt}</p>
@@ -44,10 +49,12 @@ export default ({ data }) => {
                 <div>
                   <p>
                     <span>
+                      <FontAwesomeIcon icon={faUserAlt} size={"1x"} />
                       {node.frontmatter.author}
                     </span>
-                    |
+                    
                     <span>
+                      <FontAwesomeIcon icon={faClock} size={"1x"} />
                       {node.frontmatter.date} 
                     </span>
                   </p>

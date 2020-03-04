@@ -1,9 +1,12 @@
+.control-header {
+    margin-bottom: 45px;
+}
+
 .header {
     overflow: hidden;
     padding: 10px 20px;
-    background: rgb(234, 237, 240);
+    // background: rgb(145, 182, 219);
     height: 30px;
-    border-radius: 0 0 10px 10px;
     // box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
     
 }
@@ -53,7 +56,7 @@
             li {
                 // background: violet;
                 margin: 2px 5px;
-                border: 1px solid #666666;
+                border: 1px solid #b3b6bb;
                 border-radius: 4px;
                 padding: 4px 7px;
 

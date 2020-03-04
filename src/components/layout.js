@@ -34,16 +34,18 @@ export default props => {
     `}
 
       render={data => (
-        <div className={layoutStyles.container}>
-          <div className={layoutStyles.cMenu}>
-            <Menu title={data.site.siteMetadata.title} />
-          </div>
-          <div className={layoutStyles.dContext}>
-            <div className={layoutStyles.main}>
-              <div>{children}</div>
+        <div className={layoutStyles.controlContainer}>
+          <div className={layoutStyles.container}>
+            <div className={layoutStyles.cMenu}>
+              <Menu title={data.site.siteMetadata.title} />
             </div>
-            <div className={layoutStyles.sidebar}>
-              <Sidebar edges={data.topics.edges} />
+            <div className={layoutStyles.dContext}>
+              <div className={layoutStyles.main}>
+                <div>{children}</div>
+              </div>
+              <div className={layoutStyles.sidebar}>
+                <Sidebar edges={data.topics.edges} />
+              </div>
             </div>
           </div>
         </div>

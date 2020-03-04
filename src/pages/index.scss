@@ -73,14 +73,17 @@ $color-text: #3c4858;
         margin-top: 6px;
         
         span {
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-            border: 1px solid #030303;
-            border-radius: 4px;
-            background: rgb(226, 224, 224);
-            padding: 2px 6px;
+            // box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            // border: 1px solid #bdbdbd;
+            // border-radius: 4px;
+            // background: rgb(226, 224, 224);
+            padding: 3px 6px;
             // color: 
+            text-decoration: underline;
 
+            
         }
+
     }
     
     &__footer {
@@ -88,10 +91,14 @@ $color-text: #3c4858;
         box-sizing: content-box;
         p {
             text-align: center;
-            font-weight: 550;
+            font-weight: 450;
             color: rgb(62, 63, 68);
             span {
-                padding: 10px 5px 0;
+                padding: 10px 15px 0;
+
+                svg {
+                    padding-right: 4px;
+                }
             }
         }
     } 
