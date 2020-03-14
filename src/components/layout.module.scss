@@ -38,15 +38,59 @@ body {
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
     body {
-        background: rgb(188, 188, 255);
+        // background: rgb(188, 188, 255);
+        .main {
+            display: block;
+            margin: 20px auto;
+            // max-width: 500px;
+        }
+       .sidebar {
+           display: none;
+       }
+
+        // .d-context .sidebar {
+
+        // }
     }
 }
 
 @media screen and (min-width: 992px) {
-    body {
-        background: #f8f9fa;
+   
+    .d-context {
+        display: block;
+        margin: 10px 0;
+    
+        .main {
+            height: 100%;
+            width: 800px;
+            margin: 0 10px 20px 0;
+            float: left;
+            background: #ebf0f5;
+            padding-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    
+        }
+        
+        .sidebar {
+            width: calc(100% - 900px);
+            width: -moz-calc(100% - 900px);
+            width: -webkit-calc(100% - 900px);
+            height: 100%;
+            float: left;
+            background: rgb(241, 241, 241);
+            border-radius: 10px;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            margin-left: 2%;
+        }
     }
 }
+
+// body {
+//     background: #f8f9fa;
+
+// }
+
 .control-container {
     background: #eaedf0;
 
@@ -59,34 +103,7 @@ body {
     
 }
 
-.d-context {
-    display: block;
-    margin: 10px 0;
 
-    .main {
-        height: 100%;
-        width: 800px;
-        margin: 0 10px 20px 0;
-        float: left;
-        background: #ebf0f5;
-        padding-bottom: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-
-    }
-    
-    .sidebar {
-        width: calc(100% - 810px);
-        width: -moz-calc(100% -810px);
-        width: -webkit-calc(100% -810px);
-        height: 100%;
-        float: left;
-        background: rgb(241, 241, 241);
-        border-radius: 10px;
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-
-    }
-}
 
 // .c-menu {
 //     height: 60px;

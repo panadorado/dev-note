@@ -2,8 +2,6 @@ import React from 'react';
 import menuStyles from './menu.module.scss';
 import { Link } from 'gatsby';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAddressCard, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -27,17 +25,11 @@ export default (props) => {
             </Link>
             <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/ca-nhan">
               <li className=''>
-                <span>
-                  <FontAwesomeIcon icon={faAddressCard} style={{ paddingRight: "5px"}} size= "5px" />
-                </span>
                 Cá nhân
               </li>
             </Link>
             <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/gioi-thieu">
               <li className=''>
-                <span>
-                  <FontAwesomeIcon icon={faInfoCircle} style={{ paddingRight: "5px"}} size= "5px" />
-                </span>
                 Giới thiệu
               </li>
             </Link>

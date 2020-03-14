@@ -1,7 +1,7 @@
 ---
 title: "Những dòng lệnh command trên Windows 10 thường dùng nhất (P1)"
 date: 2019-09-11 11:30:40 +0700
-categories: ["Thủ thuật thường dùng trên windows 10"]
+categories: ["Command trên windows 10"]
 tags: ["command"]
 image: './img/blog2.jpg'
 author: "Trần Đức Lĩnh"

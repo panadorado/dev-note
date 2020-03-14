@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `NOTE-DEV`,
+        title: `DEV-NOTE`,
         author: `Trần Đức Lĩnh`
     },
     plugins: [

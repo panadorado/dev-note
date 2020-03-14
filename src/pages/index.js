@@ -5,9 +5,8 @@ import Img from 'gatsby-image';
 import { graphql, Link } from "gatsby";
 import Title from '../components/helmet.title';
 import './index.scss';
+import '../style/timer.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClock, faUserAlt, faTags } from '@fortawesome/free-solid-svg-icons';
 
 export default ({ data }) => {
   return (
@@ -34,7 +33,6 @@ export default ({ data }) => {
                 <p className='content__tag'>
                   {node.frontmatter.tags.map((tag, keytag) => 
                     <span key={keytag}>
-                      <FontAwesomeIcon icon={faTags} size= "sm" color="#114a86" />
                       <Link to={`/tag/${(tag)}`}> #{tag}</Link>
                     </span>
                   )}
@@ -49,12 +47,10 @@ export default ({ data }) => {
                 <div>
                   <p>
                     <span>
-                      <FontAwesomeIcon icon={faUserAlt} size= "sm" />
                       {node.frontmatter.author}
                     </span>
                     
                     <span>
-                      <FontAwesomeIcon icon={faClock} size= "sm" />
                       {node.frontmatter.date} 
                     </span>
                   </p>
