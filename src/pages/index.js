@@ -34,7 +34,7 @@ export default ({ data }) => {
                 <p className='content__tag'>
                   {node.frontmatter.tags.map((tag, keytag) => 
                     <span key={keytag}>
-                      <FontAwesomeIcon icon={faTags} size={"1px"} color="#114a86" />
+                      <FontAwesomeIcon icon={faTags} size= "sm" color="#114a86" />
                       <Link to={`/tag/${(tag)}`}> #{tag}</Link>
                     </span>
                   )}
@@ -49,12 +49,12 @@ export default ({ data }) => {
                 <div>
                   <p>
                     <span>
-                      <FontAwesomeIcon icon={faUserAlt} size={"1x"} />
+                      <FontAwesomeIcon icon={faUserAlt} size= "sm" />
                       {node.frontmatter.author}
                     </span>
                     
                     <span>
-                      <FontAwesomeIcon icon={faClock} size={"1x"} />
+                      <FontAwesomeIcon icon={faClock} size= "sm" />
                       {node.frontmatter.date} 
                     </span>
                   </p>

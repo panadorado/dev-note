@@ -28,7 +28,7 @@ export default (props) => {
             <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/ca-nhan">
               <li className=''>
                 <span>
-                  <FontAwesomeIcon icon={faAddressCard} style={{ paddingRight: "5px"}} size={`1x`} />
+                  <FontAwesomeIcon icon={faAddressCard} style={{ paddingRight: "5px"}} size= "5px" />
                 </span>
                 Cá nhân
               </li>
@@ -36,7 +36,7 @@ export default (props) => {
             <Link className={menuStyles.navItem} activeClassName={menuStyles.activeNavItem} to="/gioi-thieu">
               <li className=''>
                 <span>
-                  <FontAwesomeIcon icon={faInfoCircle} style={{ paddingRight: "5px"}} size={`1x`} />
+                  <FontAwesomeIcon icon={faInfoCircle} style={{ paddingRight: "5px"}} size= "5px" />
                 </span>
                 Giới thiệu
               </li>
