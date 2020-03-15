@@ -31,10 +31,10 @@
     float: left;
 
     .title {
-        color: #2b2929;
+        color: #3c4858;
         font-size: 1.3rem;
         font-weight: bold;
-        font-family: 'NoteDEV';
+        // font-family: 'NoteDEV';
         text-decoration: none;
         text-align: center;
         line-height: 30px;
@@ -68,7 +68,8 @@
                 margin: 2px 5px;
                 border: 1px solid #b3b6bb2b;
                 border-radius: 4px;
-                padding: 4px 7px;
+                padding: 5px 8px;
+                box-shadow: 0px 2px 6px #ccc;
 
                 &:hover {
 

@@ -9,6 +9,8 @@ author: "Trần Đức Lĩnh"
 
 Trong phần [trước](/on-lai-khai-niem-co-ban-trong-javascript-p1) mình đã giới thiệu các khái niệm cơ bản nhất bao gồm *biến, vòng lặp, điều kiện, hàm,...* và nó được minh hoạ bằng ngôn ngữ **JavaScript**. Trong bài tiếp theo, mình muốn tìm hiểu sâu hơn để nắm bắt các khái niệm nền tảng.
 
+<kbd>⇊</kbd>
+
 <small>You don’t know JS</small>
 
 Có vài kiến thức mới mẻ và hữu ích mà trước đây chưa được nhắc đến. Và đây là những kiến thức nền giúp cho những **DEV** có thể tiến xa hơn.

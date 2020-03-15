@@ -1,5 +1,6 @@
   :not(pre) > code[class*="language-"], pre[class*="language-"] {
       background: #03040af0;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   }
 
   :not(pre) > code[class*="language-"] {
