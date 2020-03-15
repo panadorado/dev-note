@@ -5,7 +5,7 @@
 @media screen and (max-width: 576px) {
 
     header {
-        height: 60px !important;
+        height: 80px !important;
         
         .d-title {
             float: none !important;
@@ -22,16 +22,13 @@
 .header {
     overflow: hidden;
     padding: 10px 20px;
-    // background: rgb(145, 182, 219);
-    height: 30px;
-    // box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.15);
+    height: 50px;
     
 }
 
 .d-title {
     display: block;
     float: left;
-    // background: seagreen;
 
     .title {
         color: #2b2929;
@@ -47,7 +44,6 @@
 
 .d-menu {
     display: block;
-    // background:  violet;
     float: right;
     position: relative;
     top: -5px;
@@ -55,10 +51,8 @@
     .nav-list {
         display: flex;
         flex-direction: row;
-        // margin: 0;
         list-style-type: none;
         padding: 5px 0;
-        // background: red;
 
         .nav-item {
             color: #353535;
@@ -71,14 +65,13 @@
             }
             
             li {
-                // background: violet;
                 margin: 2px 5px;
                 border: 1px solid #b3b6bb2b;
                 border-radius: 4px;
                 padding: 4px 7px;
 
                 &:hover {
-                    // background: rgb(138, 138, 138);
+
                 }
             }
         }

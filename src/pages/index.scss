@@ -15,7 +15,8 @@ $color-text: #3c4858;
 @media screen and (max-width: 576px) {
     .container {
         margin: 60px auto 0 !important;
-        max-width: 370px !important;
+        max-width: 290px !important;
+
     }
 
     .d__img {
@@ -23,19 +24,17 @@ $color-text: #3c4858;
         margin: 0 auto;
         
         .img__link {
-            width: 320px !important;
-            height: 165px !important;
+            width: 260px !important;
+            height: 125px !important;
 
             img {
-                // width: 340px !important;
-                // height: 185px !important;
+                
             }
         }
     }
 }
 
 .container {
-    // background: red;
     padding: 20px 20px 0px;
     box-sizing: content-box;
     margin: 100px auto 0;
@@ -45,7 +44,6 @@ $color-text: #3c4858;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 10px;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-
 
     a {
         text-decoration: none;
@@ -89,21 +87,16 @@ $color-text: #3c4858;
         padding: 10px 14px 10px;
         line-height: initial;
         color: #3c4858;
+        line-height: 1.2;
+
     }
     &__tag {
         display: block;
         margin-top: 6px;
         
         span {
-            // box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-            // border: 1px solid #bdbdbd;
-            // border-radius: 4px;
-            // background: rgb(226, 224, 224);
             padding: 3px 6px;
-            // color: 
             text-decoration: underline;
-
-            
         }
 
     }
