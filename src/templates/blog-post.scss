@@ -1,5 +1,31 @@
 @import '../style/pygments-themes.scss';
 
+// Font size tag h1 to h6
+// Copy layout.module
+$ids: 1, 2, 3, 4, 5, 6;
+$tag__title--size: '2rem', '1.5rem', '1.7rem', '1.5rem', '0.83rem', '0.67rem';
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
+@mixin tag-title-size () {
+    @for $i from 1 to 6 {
+      $id: nth($ids, $i);
+      $title--size: nth($tag__title--size, $i);
+        h#{$id} {
+           font-size: unquote(#{$title--size});
+           font-weight: 200;
+           margin: 1.2rem 0 0.2rem 0;
+        }
+    }
+}
+
 .content--post {
     display: block;
     margin: 0;
@@ -17,18 +43,18 @@
         font-weight: 600;
     }
 
-    span {
+    span, a {
         // border: 1px solid #ccc;
         padding: 4px;
-        color: rgb(44, 159, 226);
-
-        svg {
-            color: rgb(17, 74, 134);
-            padding-right: 4px;
-        }
+        color: #0529a4;
     }
 }
 .content--main {
     margin-top: 30px;
     line-height: 1.5;
+    @include tag-title-size();
+
+    p {
+        margin: 0 0 .8rem;
+    }
 }

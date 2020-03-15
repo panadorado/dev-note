@@ -11,6 +11,7 @@ $tag__title--size: '2rem', '1.5rem', '1.17rem', '1rem', '0.83rem', '0.67rem';
       $title--size: nth($tag__title--size, $i);
         h#{$id} {
            font-size: unquote(#{$title--size});
+           font-weight: 200;
         }
     }
 }
@@ -28,12 +29,14 @@ body {
     small {
         font-size: 12.8px;
     }
+    color: #3c4858;
 }
 
 @media screen and (max-width: 576px) {
     body {
         background: rgb(255, 216, 216);
     }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -86,10 +89,6 @@ body {
     }
 }
 
-// body {
-//     background: #f8f9fa;
-
-// }
 
 .control-container {
     background: #eaedf0;

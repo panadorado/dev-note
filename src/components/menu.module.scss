@@ -2,6 +2,23 @@
     margin-bottom: 45px;
 }
 
+@media screen and (max-width: 576px) {
+
+    header {
+        height: 60px !important;
+        
+        .d-title {
+            float: none !important;
+        }
+        .d-menu {
+            float: none !important ;
+            position: relative;
+            top: 4px;
+        }
+    }
+
+}
+
 .header {
     overflow: hidden;
     padding: 10px 20px;

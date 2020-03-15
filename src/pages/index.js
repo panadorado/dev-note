@@ -5,7 +5,6 @@ import Img from 'gatsby-image';
 import { graphql, Link } from "gatsby";
 import Title from '../components/helmet.title';
 import './index.scss';
-import '../style/timer.css';
 
 
 export default ({ data }) => {

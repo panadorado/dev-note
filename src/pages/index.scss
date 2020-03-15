@@ -12,6 +12,28 @@
 $color-arrow: #007bff;
 $color-text: #3c4858;
 
+@media screen and (max-width: 576px) {
+    .container {
+        margin: 60px auto 0 !important;
+        max-width: 370px !important;
+    }
+
+    .d__img {
+        display: block;
+        margin: 0 auto;
+        
+        .img__link {
+            width: 320px !important;
+            height: 165px !important;
+
+            img {
+                // width: 340px !important;
+                // height: 185px !important;
+            }
+        }
+    }
+}
+
 .container {
     // background: red;
     padding: 20px 20px 0px;
