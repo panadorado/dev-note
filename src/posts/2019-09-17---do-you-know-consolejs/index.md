@@ -9,7 +9,7 @@ author: "Trần Đức Lĩnh"
 
 Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa lạ gì nữa rồi. Nhưng không ít bạn biết rằng, ngoài <code>`console.log` </code>ra thì có trên 20 phương thức *console* khác nhau.
 
-![image-title-here](/assets/img/img-post/console/console.jpg){:width="100%"}
+![image-title-here](/assets/img/img-post/console/console.jpg)
 
 **Các phương thức console bao gồm**
 1. `console.assert()` 
@@ -36,7 +36,7 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 ***
 
-### console.log
+### 1. console.log
 
 ```js
     //Tran Duc Linh
@@ -45,11 +45,11 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 > Kết quả
 
-<!-- ![image-title-here](/assets/img/img-post/console/result.js.console.log.png){:width="50%"} -->
+![image-title-here](/assets/img/img-post/console/result.js.console.log.png)
 
 ***
 
-### console.log + CSS
+### 2. console.log + CSS
 
 ```js
     // Tran Duc Linh
@@ -60,11 +60,11 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 > Kết quả
 
-<!-- ![image-title-here](/assets/img/img-post/console/result.js.console.log_css.png){:width="50%"} -->
+![image-title-here](/assets/img/img-post/console/result.js.console.log_css.png)
 
 ***
 
-### console.table()
+### 3. console.table()
 
 ```js
     // Tran Duc Linh
@@ -75,11 +75,11 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 > Kết quả
 
-<!-- ![image-title-here](/assets/img/img-post/console/result.js.console.table.png){:width="50%"} -->
+![image-title-here](/assets/img/img-post/console/result.js.console.table.png)
 
 ***
 
-### console.group()
+### 4. console.group()
 
 ```js
     // Tran Duc Linh
@@ -95,11 +95,11 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 > Kết quả
 
-<!-- ![image-title-here](/assets/img/img-post/console/result.js.console.group.png){:width="50%"} -->
+![image-title-here](/assets/img/img-post/console/result.js.console.group.png)
 
 ***
 
-### console.warn() & console.error()
+### 5. console.warn() & console.error()
 
 ```js
     // Tran Duc Linh
@@ -108,10 +108,10 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 > Kết quả
 
-<!-- ![image-title-here](/assets/img/img-post/console/result.js.console.warn_err.png){:width="50%"} -->
+![image-title-here](/assets/img/img-post/console/result.js.console.warn_err.png)
 
 ***
-### console.time()
+### 6. console.time()
 
 ```js
     // Tran Duc Linh
@@ -124,8 +124,8 @@ Khi đã dấn thân vào JavaScript, thì `console.log` không còn quá xa l�
 
 > Kết quả
 
-<!-- ![image-title-here](/assets/img/img-post/console/result.js.console.time.png){:width="50%"} -->
+![image-title-here](/assets/img/img-post/console/result.js.console.time.png)
 
 ***
 
-Đó là những phương thức có thể giúp ích cho bạn có cái nhìn trực quan hơn về `console`, bạn cũng có thể tuỳ biến nhiều cách hiển thị hơn, không còn nhàm chán, đơn điệu khi chỉ dùng mỗi `console.log` nữa đúng không nào.
+Những phương thức trên có thể giúp ích cho bạn có cái nhìn trực quan hơn về `console`, bạn cũng có thể tuỳ biến nhiều cách hiển thị hơn, không còn nhàm chán, đơn điệu khi chỉ dùng mỗi `console.log` nữa đúng không nào.

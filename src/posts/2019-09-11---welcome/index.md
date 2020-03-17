@@ -1,5 +1,5 @@
 ---
-title: "Giới thiệu về bản thân"
+title: "Giới thiệu đôi chút về bản thân"
 date: 2019-09-10 11:00:10 +0700
 categories: ["Mở đầu"]
 tags: ["xemnao"]
@@ -7,19 +7,27 @@ image: './img/blog1.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-Đây là blog đầu tay của mình, mục đích ban đầu mình muốn tạo một nơi để lưu trữ, sao lưu kiến thức từ mọi nơi để học lại. Chính xác hơn là một nơi để lưu trữ **bookmark**.
+ * <small>Cập nhật ngày 17-03-2020.</small>
 
-![image-title-here](./img/pic-1.png)
+### Lời nói đầu
 
-![image-title-here](./img/pic-2.png)
+Trước tiên tớ rất cảm ơn mọi người đã ghé thăm website, chúc các bạn thật nhiều sức khỏe cũng như thành công trong cuộc sống.
 
-![image-title-here](./img/pic-3.png)
+Mục đích chính là tạo ra một nơi lưu trữ, ghi lại những kiến thức đã học trước đó và tái sử dụng và cập nhật liên tục tránh bị lạc hậu, đồng thời cũng là nơi cho những bạn mới bước vào lập trình có thể kham khảo tài liệu.
 
+Lúc trước tớ hay `note` những gì khó nhớ vào file với đuôi mở rộng là `.md` (`markdown`) và `push` lên `github` dùng tạm.
 
-Lúc đó mình hay `note` những gì khó nhớ vào file với đuôi mở rộng là `.md` (`markdown`) và `push` lên `github` dùng tạm.
-Nhưng kiến thức ngày càng nhiều, việc phân chia chủ đề bài viết lại không rõ ràng, giao diện lại không trực quan nên mình chuyển sang viết `Jekyll + Bootstrap` để có cái nhìn toàn vẹn hơn.
+Nhưng kiến thức ngày càng nhiều, việc phân chia chủ đề bài viết lại không rõ ràng, giao diện lại không trực quan nên tớ chuyển sang viết `Jekyll + Bootstrap` để có cái nhìn toàn vẹn hơn. 
+
+Sau khi nhận thấy vài nhược điểm không thể khắc phục từ `Jekyll`. Tớ bắt đầu xây dựng blog bởi `GatsbyJS`. 
 
 ### Là một Frontend Coder
-Từ một cậu tân sinh viên không biết gì về công nghệ thông tin và với kinh nghiệm non kém chỉ khoảng 1.5 đến 2 năm lập trình (từ 2017 - hiện tại 2019), lượng kiến thức cũng chỉ ở mức cơ bản, mình vẫn tự tin để hướng dẫn các bạn tân sinh viên mới toanh về hướng đi của một Frontend Coder đi trước và phạm nhiều sai lầm ngớ ngẩn như mình đây.
 
-À!!! Có lần mình chỉ một bạn sai tét bét ra mà không biết làm lại như thế nào luôn. Vì thế mình vẫn còn học hỏi nhiều thứ từ các bậc tiền bối đi trước lắm.
+Thật ra, kiến thức lập trình của tớ rất yếu, tớ thích lập trình Website, cụ thể hơn là tạo giao diện và thao tác người dùng, tớ thích `front-end`, thích chỉnh sửa ảnh, tạo video, mục tiêu duy nhất là thành thạo CSS và biết chút ít về JavaScript.
+
+
+Tớ đang cố gắn từng ngày để tự hoàn thiện bản thân, thật thú vị khi có nhiều bạn đồng hành trên con đường lập trình này.
+
+**Là một blog mã nguồn mở, bất cứ ai cũng có thể clone `repositories` về máy tính của mình.**
+
+Đúng vậy, mọi thứ đều miễn phí kễ cã kiến thức.

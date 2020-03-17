@@ -9,18 +9,18 @@ author: "Trần Đức Lĩnh"
 
 DOM viết tắt của từ <strong>Document Object Model</strong>, trong mỗi thẻ `(tag)` HTML có những thuột tính `(properties)` và được phân cấp cha-con, sự phân cấp cha-con này được gọi là `selector`, và DOM có nhiệm vụ thay đổi thuộc tính thẻ, thay đổi cấu trúc HTML đó.
 
-<!-- ![image-title-here](/assets/img/img-post/dom/dom.jpg) -->
+![image-title-here](/assets/img/img-post/dom/dom.jpg)
 
 ##### Mục lục:
-1. console.log()
-2. Selectors
-3. Parents
-4. Children
-5. Siblings
-6. Create Elements` + `Insert Elements
+*   console.log()
+*   Selectors
+*   Parents
+*   Children
+*   Siblings
+*   Create Elements `+` Insert Elements
 
 ***
-### 1. <kbd>console.log()</kbd>
+### 1. console.log()
 
  * `console.dir(document);`
     // Hiển thị toàn bộ thông tin DOM.
@@ -48,7 +48,7 @@ DOM viết tắt của từ <strong>Document Object Model</strong>, trong mỗi 
     // Hiển thị tất cả ảnh.
 
 
-### 2. <kbd>Selectors</kbd>
+### 2. Selectors
 
 
 * `document.getElementById('id');`
@@ -65,7 +65,7 @@ DOM viết tắt của từ <strong>Document Object Model</strong>, trong mỗi 
     // Tìm tất cả các element và trả về một danh sách [index].
 
 
-### 3. <kbd>Parents</kbd>
+### 3. Parents
 
 
 * `x.parentNode`<br/>
@@ -94,7 +94,7 @@ DOM viết tắt của từ <strong>Document Object Model</strong>, trong mỗi 
     </body>
 ```
  
-### 4. <kbd>Children</kbd>
+### 4. Children
 
 **Chỉ định tất cả các 'node' trước/sau của 1 element**
 
@@ -159,7 +159,7 @@ DOM viết tắt của từ <strong>Document Object Model</strong>, trong mỗi 
     </body>
 ```
 
-### 5. <kbd>Siblings</kbd>
+### 5. Siblings
 
 
 **Chỉ định tất cả các 'node' trước/sau của 1 element**
@@ -229,7 +229,7 @@ DOM viết tắt của từ <strong>Document Object Model</strong>, trong mỗi 
     </body>
 ```
 
-### 6. <kbd>Create Elements</kbd> + <kbd>Insert Elements</kbd>
+### 6. Create Elements + Insert Elements
 
 * `document.createElement();`
     // Tạo mới 1 element.

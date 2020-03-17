@@ -10,7 +10,7 @@ author: "Trần Đức Lĩnh"
 Giỏi toán không nhất thiết trở thành lập trình viên giỏi.<br/>
 Nhưng muốn trở thành một lập trình viên giỏi thì phải giỏi toán.
 
-<!-- ![image-title-here](./img/math-800-310.jpg) -->
+![image-title-here](./img/math-800-310.jpg)
 
 Nói ra thì lòng vòng, nên mình đi thẳng vào vấn đề luôn.<br/>
 Nhiều bạn cảm thấy khô khan khi nhắc đến toán học, nhưng khi đã học ngành CNTT thì toán là một thứ mang tính chất **sống còn** đấy.

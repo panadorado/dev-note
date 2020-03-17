@@ -7,9 +7,11 @@ image: './img/blog7.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-**(ES6)** viết tắt cho ***E***uropean ***C***omputer ***M***anufacturer's ***A***ssociation **Script (6)**, sau đó đổi thành `ECMAScript 20xx (ES20xx)`. Là một tập hợp kỹ thuật nâng cao của JavaScript, và nó cũng là chuẩn mực, quy định, đồng nhất 1 kiểu mà mọi người phải làm theo.
+* <small>Cập nhật ngày 17-03-2020.</small>
 
-<!-- ![image-title-here](/assets/img/img-post/es6/es6.jpg){:width="100%"} -->
+**(ES6)** viết tắt cho ***E***uropean ***C***omputer ***M***anufacturer's ***A***ssociation **Script (6)**, rút gọn thành `ECMAScript 2015 (ES2015)`. Là một tập hợp kỹ thuật nâng cao của JavaScript, và nó cũng là chuẩn mực, quy định, đồng nhất 1 kiểu mà mọi người phải làm theo.
+
+![image-title-here](/assets/img/img-post/es6/es6.jpg)
 
 ***
 
@@ -143,7 +145,7 @@ author: "Trần Đức Lĩnh"
 
 #### ***- rest***
 
-* `Rest` được bổ sung trong `Destructuring`, dùng (`...`) để hiển thị.
+* `rest` được bổ sung trong `Destructuring`, dùng (`...`) để hiển thị.
 * Có thể nhận nhiều tham số `Object` .
 
 ```js
@@ -157,7 +159,7 @@ author: "Trần Đức Lĩnh"
 
 #### ***- spread***
 
-* Thao tác ngược lại với `REST`, giúp gọp lại thành mảng mới.
+* Thao tác ngược lại với `rest`, giúp gọp lại thành mảng mới.
 * Hữu dụng khi thay thế các `thao tác` đối với mảng.
 
 * Ví dụ hàm ***`.concat()`*** 
@@ -170,7 +172,7 @@ author: "Trần Đức Lĩnh"
         // 1 2 3 4 5 6
 ```
 
-* Ví dụ thực tế khi sử dụng `SPREAD`
+* Ví dụ thực tế khi sử dụng `spread`
 
 ```js
         //Tran Duc Linh

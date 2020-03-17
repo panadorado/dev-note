@@ -10,7 +10,7 @@ author: "Trần Đức Lĩnh"
 *Regular Expression* được viết gọn thành **Regex**, là một công cụ mạnh mẽ được áp dụng rất nhiều trong lập trình.<br/>
 Mọi chuyện trở nên bớt khổ hơn khi có *Regex*, có thể dùng công cụ này để kiểm tra số điên thoại, email có hợp lệ hay không, kiểm tra số lượng kí tự, vị trí kí tự, kí tự hoa-thường và nhiều hơn thế nữa.
 
-<!-- ![image-title-here](/assets/img/img-post/regex/regex.jpg){:width="100%"} -->
+![image-title-here](/assets/img/img-post/regex/regex.jpg)
 
 Regex được sử dụng hầu hết trong các ngôn ngữ lập trình, nó khá đơn giản, chỉ cần tìm hiểu **30 phút ➹** là có thể dùng được rồi.<br/>
 Truy cập [regexr.com](https://regexr.com/) để tìm hiểu kỹ hơn hơn.

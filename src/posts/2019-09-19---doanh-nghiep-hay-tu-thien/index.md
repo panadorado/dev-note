@@ -7,9 +7,9 @@ image: './img/blog9.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề *Doanh nghiệp không phải trường học hay nhà từ thiện* khá hay nên mình xin trích một vài đoạn trên trang *topitworks* như sau:
+Dạo 1 vòng trên các trang cộng đồng lập trình, có 1 bạn viết về chủ đề ***Doanh nghiệp không phải trường học hay nhà từ thiện*** khá hay nên mình xin trích một vài đoạn trên trang *topitworks* như sau:
 
-<!-- ![image-title-here](/assets/img/img-post/cong-ty-hay-nha-tu-thien/img-title.jpg){:width="100%"} -->
+![image-title-here](/assets/img/img-post/cong-ty-hay-nha-tu-thien/img-title.jpg)
 
 * Kiến thức lập trình của tui hơi kém cũng tại trường không dạy thì đi ra trường làm cái gì???
 * Mà ông cứ lo xa, vào công ty chắc chắn họ sẽ đào tạo lại thôi.

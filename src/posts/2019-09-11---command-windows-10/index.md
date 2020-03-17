@@ -1,11 +1,13 @@
 ---
-title: "Những dòng lệnh command trên Windows 10 thường dùng nhất (P1)"
+title: "Thao tác command trên Windows 10"
 date: 2019-09-11 11:30:40 +0700
 categories: ["Command trên windows 10"]
 tags: ["command"]
 image: './img/blog2.jpg'
 author: "Trần Đức Lĩnh"
 ---
+
+* <small>Cập nhật ngày 17-03-2020</small>
 
 Nếu bạn là một lập trình viên thì việc thao tác thành thạo các phím tắt, sử dụng `cmd` sẽ rút ngắn 1 khoảng thời gian nhất định và tăng năng suất trong công việc. Còn việc tăng độ ngầu như `hacker` trước mặt những người mù công nghệ cũng là 1 điểm cộng kha khá đấy.
 
@@ -39,8 +41,6 @@ Nếu bạn là một lập trình viên thì việc thao tác thành thạo cá
   * `/s` : `Thực hiện tất cả bên trong nó`
   * `/h` : `Đặt thuộc tính tất cả bên trong nó`
 
-
-
 ### Thao tác kiểm tra thông tin host, địa chỉ IP, DNS,...
 * `tasklist` : `Xem tiến trình chương trình`
 * `driverquery` : `Xem các driver đã cài trong máy`
@@ -56,4 +56,4 @@ Nếu bạn là một lập trình viên thì việc thao tác thành thạo cá
 
 ***
 
-Mình đã tổng hợp lại những thao tác trên `cmd` thường dùng nhất trên *Windows*. Sẽ có những lúc bạn sẽ cần, hãy note lại để dùng dần nhé.
+Tớ đã tổng hợp lại những thao tác trên `cmd` thường dùng nhất trên *Windows*. Sẽ có những lúc bạn sẽ cần, hãy note lại để dùng dần nhé.

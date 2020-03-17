@@ -1,5 +1,5 @@
 ---
-title: "Các lệnh GIT cơ bản (P1)"
+title: "Các lệnh GIT cơ bản"
 date: 2019-09-15 09:22:04 +0700
 categories: ["Thao tác Git"]
 tags: ["command"]
@@ -7,11 +7,13 @@ image: './img/blog5.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-Khi đã là một lập trình viên thì GIT là một công cụ không thể thiếu, nếu bạn không biết GIT là gì?, vì sao sử dụng GIT trong project? thì mình sẽ giải thích ngắn gọn như sau.<br/>
+* <small>Cập nhật ngày 17-03-2020.</small>
+
+Khi đã là một lập trình viên thì **GIT** là một công cụ không thể thiếu, nếu bạn không biết **GIT** là gì?, vì sao sử dụng **GIT** trong project? thì mình sẽ giải thích ngắn gọn như sau.<br/>
 
 `GIT` là một hệ thông quản lý phiên bản phân tán `(VCS - distributed Version Control System)`, là một công cụ lập trình hỗ trợ quản lý code, ghi lại lịch sử thay đổi cũng như phân nhánh (branch), chia nhiệm vụ, và tổng hợp code một cách dễ dàng hơn.
 
-<!-- ![image-title-here](/assets/img/img-post/GIT-p1/GIT.jpg) -->
+![image-title-here](/assets/img/img-post/GIT-p1/GIT.jpg)
 
 ### <kbd>GIT</kbd>
 **Sau đây là những lệnh `GIT` cơ bản.**
@@ -19,8 +21,8 @@ Khi đã là một lập trình viên thì GIT là một công cụ không thể
 * `gitk` : Thao tác git dưới dạng giao diện trực quan
 
 ##### Cấu hình GIT
-* `git config --global user.name = " <Your name> "`
-* `git config --global user.email = " <Mail@g.c> "`
+* `git config --global user.name = "<Your name>"`
+* `git config --global user.email = "<Mail@g.c>"`
 
 ##### Thời gian đăng nhập và bảo mật
 * `git config --global credential.helper store` : Tạo một file ~/.git-credentials và lưu tài khoảng dưới dạng text, bảo mật không an toàn
@@ -55,7 +57,7 @@ Khi đã là một lập trình viên thì GIT là một công cụ không thể
 * `git branch` : Kiểm tra nhánh
 * `git checkout -b <name>` : Tạo nhánh
 * `git checkout <name>` : Chuyển nhánh
-* `B -> A` `:>>` `git checkout <A>` `:>>` `git merge <B>` : Gộp nhánh
+* `-:>> B -> A` `-:>>` `git checkout <A>` `-:>>` `git merge <B>` : Gộp nhánh
 * `git branch -D <name>` : Xoá 1 nhánh
 
 ##### Thao tác hoàn trả commit
@@ -84,16 +86,28 @@ Khi đã là một lập trình viên thì GIT là một công cụ không thể
 ### <center>Các câu hỏi trong GIT</center>
 
 * ##### **Câu hỏi:** `git add *` và `git add .` khác nhau như thế nào?
+
     **Trả lời:**
+
     * -Thực sự  `git add *` được quy định bên trong *SELL* của hệ điều hành, ý nghĩa bao hàm tất cả thư mục hiện tại đều chuyển tới *.git*, dấu `*` mang ý nghĩa là **bao gồm**, ( lưu ý rằng các file bắt đầu bởi dấu **.** đều không thêm vào).
     *   -`git add .` được sử dụng bao gồm tất cả các file bao gồm file bắt đầu bằng dấu **.** hiện tại đều chuyển tới *.git*
 
 ***
 
 * ##### **Câu hỏi:** Sự khác nhau giữa `git add .`, `git add -u` và `git add -A`, ?
+
     **Trả lời:** 
+
     * -`git add .` : Chỉ thêm các file mới và những file đã sửa đổi bao gồm cả thuộc tính file, không theo dõi các file đã bị xoá.
     * -`git add -u` : Sẽ không thêm bất kỳ file mới nào, chỉ thêm các file đã sửa đổi khi được theo dõi trước đó bao gồm cã thuộc tính và loại bỏ những file đã bị xoá.
     * -`git add -A` : Là sự kết hợp giữa `git add .` và `git add -u`, bao gồm thêm file mới, thuộc tính file và loại bỏ những file đã xoá.
 
-*<small>Cập nhật lần thứ (5)...</small>*
+***
+
+* ##### **Câu hỏi:** Sau khi clone repositories từ github về, tôi không thể liệt kê được **branch** ngay trên local.
+
+    **Trả lời:**
+
+    * -`git branch -a` : Giúp liệt kê tất cả cách nhánh từ phía server.
+    * -`git checkout <name-branch>` : Chọn nhánh.
+    * -`git pull origin <master>` : Cập nhật thay đổi từ nhánh **master**.
