@@ -15,7 +15,7 @@ Trước tiên tớ rất cảm ơn mọi người đã ghé thăm website, chú
 
 Mục đích chính là tạo ra một nơi lưu trữ, ghi lại những kiến thức đã học trước đó và tái sử dụng và cập nhật liên tục tránh bị lạc hậu, đồng thời cũng là nơi cho những bạn mới bước vào lập trình có thể kham khảo tài liệu.
 
-Lúc trước tớ hay `note` những gì khó nhớ vào file với đuôi mở rộng là `.md` (`markdown`) và `push` lên `github` dùng tạm.
+Lúc trước tớ hay note những gì khó nhớ vào file với đuôi mở rộng là **.md** (markdown) và push lên github dùng tạm.
 
 Nhưng kiến thức ngày càng nhiều, việc phân chia chủ đề bài viết lại không rõ ràng, giao diện lại không trực quan nên tớ chuyển sang viết `Jekyll + Bootstrap` để có cái nhìn toàn vẹn hơn. 
 
