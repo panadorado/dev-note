@@ -1,7 +1,7 @@
 ---
 title: "Ôn lại khái niệm cơ bản trong JavaScript (P2)"
 date: 2020-01-07 21:20:56 +0700
-categories: ["Khái niệm trong JavaScript"]
+categories: ["JavaScript"]
 tags: ["frontend"]
 image: './img/blog21.jpg'
 author: "Trần Đức Lĩnh"

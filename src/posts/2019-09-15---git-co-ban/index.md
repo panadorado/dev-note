@@ -1,7 +1,7 @@
 ---
 title: "Các lệnh GIT cơ bản"
 date: 2019-09-15 09:22:04 +0700
-categories: ["Thao tác Git"]
+categories: ["GIT"]
 tags: ["command"]
 image: './img/blog5.jpg'
 author: "Trần Đức Lĩnh"

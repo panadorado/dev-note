@@ -1,7 +1,7 @@
 ---
 title: "Môn toán có quan trọng trong nghành CNTT?"
 date: 2019-09-12 13:28:15 +0700
-categories: ["Khái niệm toán học cơ bản"]
+categories: ["Toán học"]
 tags: ["math"]
 image: './img/blog3.jpg'
 author: "Trần Đức Lĩnh"

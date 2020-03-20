@@ -18,6 +18,14 @@ ol, ul, dl {
 
 }
 
+ol ol, ul ul, ol ul, ul ol {
+    margin: 0;
+}
+
+ul ul {
+    list-style-type: circle !important;
+}
+
 hr {
     
 }
