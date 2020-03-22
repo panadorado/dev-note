@@ -7,7 +7,7 @@ image: './img/blog2.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-* <small>Cập nhật ngày 17-03-2020</small>
+<!-- * <small>Cập nhật ngày 17-03-2020</small> -->
 
 Nếu bạn là một lập trình viên thì việc thao tác thành thạo các phím tắt, sử dụng `cmd` sẽ rút ngắn 1 khoảng thời gian nhất định và tăng năng suất trong công việc. Còn việc tăng độ ngầu như `hacker` trước mặt những người mù công nghệ cũng là 1 điểm cộng kha khá đấy.
 

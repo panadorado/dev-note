@@ -7,7 +7,7 @@ image: './img/blog7.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-* <small>Cập nhật ngày 17-03-2020.</small>
+<!-- * <small>Cập nhật ngày 17-03-2020.</small> -->
 
 **(ES6)** viết tắt cho ***E***uropean ***C***omputer ***M***anufacturer's ***A***ssociation **Script (6)**, rút gọn thành `ECMAScript 2015 (ES2015)`. Là một tập hợp kỹ thuật nâng cao của JavaScript, và nó cũng là chuẩn mực, quy định, đồng nhất 1 kiểu mà mọi người phải làm theo.
 

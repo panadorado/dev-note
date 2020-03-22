@@ -7,7 +7,7 @@ image: './img/blog1.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
- * <small>Cập nhật ngày 17-03-2020.</small>
+ <!-- * <small>Cập nhật ngày 17-03-2020.</small> -->
 
 ### Lời nói đầu
 

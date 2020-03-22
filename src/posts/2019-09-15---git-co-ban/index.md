@@ -7,7 +7,7 @@ image: './img/blog5.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-* <small>Cập nhật ngày 17-03-2020.</small>
+<!-- * <small>Cập nhật ngày 17-03-2020.</small> -->
 
 Khi đã là một lập trình viên thì **GIT** là một công cụ không thể thiếu, nếu bạn không biết **GIT** là gì?, vì sao sử dụng **GIT** trong project? thì mình sẽ giải thích ngắn gọn như sau.<br/>
 

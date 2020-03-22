@@ -7,7 +7,7 @@ image: './img/blog11.jpg'
 author: "Trần Đức Lĩnh"
 ---
 
-* <small>Cập nhật ngày 20-03-2020</small>
+<!-- * <small>Cập nhật ngày 20-03-2020</small> -->
 
 **HTML5** hỗ trợ 2 dạng đồ hoạ gồm *Canvas* và *SVG*, những công nghệ này giải quyết các kịch bản đồ hoạ phức tạp, đưới đây là những đặc điểm khác biệt của chúng.
 
